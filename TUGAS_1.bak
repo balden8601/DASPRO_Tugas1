@@ -15,6 +15,6 @@ Write ('Kota            :');
 Readln (Kota);
 Write ('Kode Pos        :');  //label kode pos disini akan bertuliskan kode pos yang akan meminta user memasukkan input kode posnya sendiri.//
 Readln (Kode_Pos);
-Write ('Alamat : Jalan ',Jalan,' No. ',No,' ',Kota,' ',Kode_Pos); //ini akan berisikan tampilan beserta inputan yang telah diisikan user//
+Write ('Alamat : Jalan ',Jalan,' No. ',No,' ',Kota,' ',Kode_Pos);
 readln;
 End.
