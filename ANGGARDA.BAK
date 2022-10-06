@@ -1,0 +1,28 @@
+program TUGAS_PRAKTEK_DASPRO;
+
+uses crt;
+var Jalan, No, Kota, Kodepos: string;
+begin
+clrscr;
+
+ write('Jalan   : ');
+ readln(Jalan);
+ write('No      : ');
+ readln(No);
+ write('Kota    : ');
+ readln(Kota);
+ write('Kodepos : ');
+ readln(Kodepos);
+writeln('====================================');
+
+ write('Alamat:Jalan ',jalan);
+ write(' No.',No);
+ write(' ',Kota);
+ write(' ',Kodepos);
+readln;
+
+end.
+
+
+
+
