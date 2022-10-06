@@ -1,0 +1,33 @@
+  PROGRAM KEEMPAT;
+
+  USES CRT;
+
+  LABEL A;
+  LABEL B;
+  LABEL C;
+  LABEL D;
+  LABEL E;
+  LABEL F;
+  LABEL G;
+  LABEL H;
+
+  BEGIN
+  GOTO D;
+  A : WRITELN('MEDAN');
+  GOTO H;
+  B : WRITE('FASILKOM-TI');
+  GOTO C;
+  C : WRITELN('USU');
+  GOTO A;
+  D : WRITE('KOM C');
+  GOTO G;
+  E : WRITE('TI');
+  GOTO A;
+  F : WRITELN('ILMU KOMPUTER');
+  GOTO B;
+  G : WRITELN('2022');
+  GOTO F;
+  H :
+  READLN;
+  END.
+
