@@ -1,0 +1,21 @@
+Program Tugas_lab_daspro_1;
+uses crt;
+var
+jalan,kota,pos:string;
+no:integer;
+
+begin
+clrscr;
+
+write ('jalan: ');
+readln(jalan);
+write ('no: ');
+readln(no);
+write ('kota: ');
+readln(kota);
+write ('kode pos: ');
+readln(kode_pos);
+
+write('jalan',jalan,'no',no,'kota',kota,'kode pos',kode_pos);
+readln;
+end.
